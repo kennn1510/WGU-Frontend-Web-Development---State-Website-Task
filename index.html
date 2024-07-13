@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Texas Project Website</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      section {
+        text-align: center;
+      }
+      aside {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="display: flex; justify-content: center">
+      <h1>Welcome to the Lone Star State - Texas</h1>
+    </header>
+    <div class="navigation">
+      <a href="./index.html"
+        ><img
+          src="./images/texas-state.png"
+          alt="borders of Texas with flag coloring"
+          height="100"
+          class="texas"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="./index.html" target="_blank">Home</a></li>
+          <li><a href="./austin.html" target="_blank">Austin</a></li>
+          <li><a href="./dallas.html" target="_blank">Dallas</a></li>
+          <li><a href="./houston.html" target="_blank">Houston</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section>
+      <img
+        src="./images/texas-barn.jpg"
+        alt="texas barn"
+        height="200"
+        id="barn"
+        class="center"
+      />
+      <h2>Introduction to Texas</h2>
+      <p>Texas is the second largest state in the United States.</p>
+      <h3>Fun Facts About Texas:</h3>
+      <ol style="list-style-position: inside">
+        <li>Lone Star State</li>
+        <li>Bigger Than you Think</li>
+        <li>Barbecue Heaven</li>
+      </ol>
+      <form id="formContainer">
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Ken"
+        /><br />
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Nguyen"
+        /><br />
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="email@address.com"
+        /><br />
+        <label for="confirmEmail">Confirm Email:</label>
+        <input
+          type="text"
+          id="confirmEmail"
+          name="confirmEmail"
+          placeholder="email@address.com"
+        /><br />
+        <label for="question">Questions:</label>
+        <input
+          type="text"
+          id="question"
+          name="question"
+          placeholder="Any questions?"
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </section>
+    <aside style="top: -420px;">
+      <h4>Did you know?</h4>
+      <p>Texas is the home of Dr. Pepper.</p>
+    </aside>
+    <footer>&copy; 2024 Ken Nguyen</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

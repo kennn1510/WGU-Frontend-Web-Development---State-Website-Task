@@ -1,0 +1,56 @@
+body {
+  background-color: skyblue;
+  font-family: Arial;
+}
+
+.texas {
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.texas:hover {
+  transform: rotate(360deg);
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+div.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li:hover {
+  background-color: red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#formContainer {
+  display: grid;
+}
+
+aside {
+    float:right;
+    position: relative;
+    top: -330px;
+    inline-size: 150px;
+}
+
+footer {
+    margin: 50px;
+}
+
+table, th, td {
+  margin: 20px auto;
+  border: 1px solid black;
+}
